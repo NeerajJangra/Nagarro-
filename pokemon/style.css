@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  font-family: Lucida Handwriting;
+  background-color: pink;
+  border: solid;
+  border-radius: 40px;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  background-color: whitesmoke;
+  border: solid;
+  border-radius: 20px;
+}
+div {
+  background-color: rgb(142, 208, 210);
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 50px;
+}
+img {
+  padding: 10px;
+}
+.AshPokemons {
+  padding: 10px;
+}
+#gallery_btn {
+  height: 40px;
+  width: 400px;
+  margin: 2%;
+  border-radius: 40px;
+  font-size: medium;
+  background-color: rgb(111, 111, 245);
+  color: aliceblue;
+}
+#gallery_section {
+  display: none;
+  margin: 2% 2% 2% 2%;
+}
