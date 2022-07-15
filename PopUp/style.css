@@ -1,0 +1,49 @@
+* {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.background-image {
+  background-image: url(image.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+#box {
+  background-color: rgb(73, 135, 236);
+  height: 350px;
+  width: 700px;
+  visibility: hidden;
+  border: 2px solid rgb(20, 8, 104);
+  border-radius: 50px;
+}
+
+.lead {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
+}
+
+.clicks {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: grey;
+  color: white;
+}
+
+.cancel {
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+#box.show {
+  visibility: visible;
+}
+.btn-success {
+  width: 200px;
+  margin: 20px;
+  margin-left: 200px;
+  border: solid green;
+}
