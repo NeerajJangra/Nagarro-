@@ -22,7 +22,8 @@ h1 {
   width: 450px;
   margin: 0 auto;
   align-items: center;
-  overflow-y: scroll;
+  overflow: auto;
+  border: rgb(250, 249, 249) solid;
 }
 #taskBar {
   width: 300px;
