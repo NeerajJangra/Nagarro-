@@ -1,0 +1,43 @@
+* {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+}
+.form-group {
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+h2 {
+  background-color: rgba(3, 29, 72, 0.676);
+  padding: 10px;
+
+  color: aliceblue;
+  text-align: center;
+  font-weight: bolder;
+}
+.container {
+  background-color: rgba(1, 1, 14, 0.48);
+  width: 600px;
+  padding: 0;
+  border: solid blue;
+  border-radius: 50px;
+  margin-top: 0;
+}
+span {
+  font-size: 24px;
+  margin-top: 2%;
+}
+.background {
+  background-image: url(https://wallpaperaccess.com/full/1900901.jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+#submit-btn {
+  padding: 10px;
+  margin: 20px;
+}
