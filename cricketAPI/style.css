@@ -1,0 +1,46 @@
+body {
+  padding: 20px 0;
+  background-color: rgb(19, 19, 209);
+}
+.card {
+  max-width: 900px;
+  width: 80%;
+  height: 25em;
+  transition: transform 0.5s;
+  background-color: rgb(219, 204, 235);
+}
+.card:hover {
+  transform: scale(1.05);
+  background-color: black;
+  color: white;
+}
+.card-body:hover {
+  background-color: green;
+}
+.card-body {
+  background-color: rgb(42, 12, 12);
+}
+
+.team-logo {
+  width: 20%;
+  min-width: 50px;
+  border-radius: 100%;
+}
+.text-danger {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.text-danger p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: wheat;
+}
+
+.score {
+  text-align: center;
+}
+
+.text2 {
+  margin-top: -1rem;
+}
