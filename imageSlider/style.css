@@ -1,0 +1,50 @@
+.background {
+  background-image: url(https://wallpaperaccess.com/full/2089151.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+}
+
+h1 {
+  padding: 20px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 4rem;
+  text-align: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.show {
+  display: none;
+}
+
+.img1,
+.img2,
+.img3 {
+  border-radius: 50px;
+  border: 10px solid white;
+  height: 400px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+#leftArrow,
+#rightArrow {
+  cursor: pointer;
+  color: white;
+}
+
+#leftArrow:hover,
+#rightArrow:hover {
+  transform: scale(1.1);
+}
