@@ -28,9 +28,9 @@ h1 {
   display: none;
 }
 
-.img1,
-.img2,
-.img3 {
+#img0,
+#img1,
+#img2 {
   border-radius: 50px;
   border: 10px solid white;
   height: 400px;
