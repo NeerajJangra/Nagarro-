@@ -1,0 +1,75 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a.nav-link.dropdown-toggle {
+  color: white;
+}
+a.nav-link {
+  color: white;
+}
+a.nav-link:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+form {
+  padding-top: 10px;
+}
+input.form-control {
+  border-radius: 50px;
+  width: 220px;
+  height: 40px;
+  margin-left: 400px;
+}
+a.dropdown-item1 {
+  color: white;
+}
+.nav-item {
+  padding-left: 20px;
+}
+.imgContainer {
+  height: 600px;
+  width: 1520px;
+  padding: 0;
+  margin: 0;
+}
+
+.contentContainer {
+  margin-bottom: 50px;
+  color: wheat;
+  text-align: center;
+}
+.card {
+  color: black;
+  margin-left: 1.8%;
+  background-color: rgb(227, 224, 224);
+}
+
+.cardContainer {
+  margin-top: 50px;
+  display: flex;
+}
+.card-img-top {
+  background-color: rgb(227, 224, 224);
+  height: 270px;
+}
+
+.card-body {
+  line-height: normal;
+  border-radius: 10%;
+  height: 160px;
+}
+
+.card-body p,
+h5 {
+  line-height: 0%;
+  text-align: left;
+}
+
+.btn {
+  background-color: red;
+  width: 290px;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
